@@ -1,0 +1,120 @@
+html {
+  font-size: 62.5%; 
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-size: 14px;
+  font-size: 1.4rem;
+  width:100%;
+  height:100%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px; 
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+body a {
+	text-decoration: none;
+}
+
+h1 {
+  font-size: 42px;
+  font-size: 4.2rem; 
+  color: gray;
+}
+
+h2 {
+  font-size: 28px;
+  font-size: 2.8rem;
+  color:white;
+}
+
+h3 {
+	font-size: 18px;
+  font-size: 1.8rem;
+  color:white;
+}
+
+h5 {
+  font-size: 16px;
+  font-size: 1.6rem;
+  color:white;
+}
+
+/* =24px */
+#navbar {
+  width: 100%;
+  height: 5.5rem; 
+  background-color: #565F78;
+  position: fixed;
+  z-index: 1000;
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  filter:alpha(opacity=90);
+}
+
+#navbar ul {
+  list-style-type: none; 
+}
+#navbar li {
+  float: left; 
+}
+#navbar li a {
+  font-weight: bold; 
+}
+
+#navbar h1 {
+  margin-top: 0rem;
+  text-align: left;
+}
+
+#navbar h2 {
+	text-align: right;
+	margin-top: -6.5rem;
+	margin-right: 1rem;
+}
+.menu {
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  float: right;
+  z-index: 20;
+  position: relative;
+
+}
+
+.wrapper {
+  width:100%;
+  margin: 0px;
+  border: 0px;
+  padding-top:5.5rem;
+  z-index: 0;
+  background-color: gray;
+
+}
+
+.image_frame {
+  width:60%;
+  height:100%;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: black;
+  margin:0 auto;
+  margin-top:2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  z-index: 5;
+}
+
+img {
+	width:95%;
+  height:auto;
+  margin:0 auto;
+  padding: 0, 0, 0, 0;
+  border: 0, 0, 0, 0;
+  position: relative;
+  z-index: 10;
+}
